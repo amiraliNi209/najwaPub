@@ -1,0 +1,96 @@
+.contactusWrapper {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-color: #fff;
+}
+.title {
+  display: block;
+  position: absolute;
+  right: 10%;
+  top: 15%;
+}
+.title::after {
+  content: "";
+  background: #000;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.sendFormat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  right: 5%;
+  top: 25%;
+  margin-top: 30px;
+}
+.sendFormat ul {
+  margin-top: 25px;
+  transform: translateX(-40px);
+  line-height: 2;
+}
+.info {
+  background: #cce3de;
+  width: 500px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  z-index: 2;
+}
+.iconContainer {
+  height: 100%;
+  background: yellow;
+  width: 20%;
+  z-index: 1;
+  position: relative;
+}
+.iconContainer .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  font-size: 24px;
+}
+.inputContainer {
+  display: inline-block;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  bottom: 10%;
+  right: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.fileInput {
+  position: absolute;
+  opacity: 0;
+}
+.inputContainer label {
+  background: #cce3de;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.inputContainer label:hover{
+  transform: scale(1.05);
+  background: #c4f7ee;
+}

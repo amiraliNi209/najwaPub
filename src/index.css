@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Shabnam' ;
+}
+@font-face {
+  font-family: 'Shabnam';
+  src: url('./assets/fonts/Shabnam.ttf') format("truetype");
+}
+
+@font-face{
+  font-family: 'nastAliqe';
+  src: url(./assets/fonts/IranNastaliq.ttf) format("truetype");
+}

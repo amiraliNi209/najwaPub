@@ -1,0 +1,137 @@
+* {
+  overflow: visible;
+}
+.contactUsContainer {
+  background: #fff;
+}
+.title {
+  font-family: "nastAliqe";
+  font-size: 90px;
+  font-weight: 100;
+}
+.topContainer {
+  position: relative;
+  width: 100%;
+  height: 89vh;
+  background: #cfe1e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.topContainer img {
+  width: 100px;
+  height: 100px;
+}
+.topArrow {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 30px;
+}
+.bottomArrow {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  width: 30px;
+}
+.bottomPar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 0 15px 0 0;
+}
+.main {
+  width: 100%;
+  height: 89vh;
+  background: #fff;
+  padding: 70px;
+}
+.rowOne {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 40px;
+}
+.rowOne input {
+  width: 49%;
+  height: 100%;
+  outline: none;
+  border: solid 2px #bbb;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #cfe1e5;
+}
+.main input[type="email"] {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: solid 2px #bbb;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #cfe1e5;
+}
+.main textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  outline: none;
+  border: solid 2px #bbb;
+  border-radius: 7px;
+  background-color: #cfe1e5;
+  padding: 10px;
+}
+.bottomContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.bottomContainer .left {
+  background: #669295;
+  width: 30%;
+  height: 200px;
+  height: 200px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottomContainer .center {
+  width: 30%;
+  height: 200px;
+  background: #cfe1e5;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottomContainer .right {
+  background: #eee;
+  text-align: center;
+  width: 30%;
+  height: 200px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottomContainer h5 {
+  margin-top: 10px;
+}
+.submit{
+  margin-top: 10px;
+  padding: 6px 30px;
+  background: #cfe1e5;
+  border: 2px solid #bbb;
+  border-radius: 20px;
+  cursor: pointer;
+}
