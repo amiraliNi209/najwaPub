@@ -136,5 +136,10 @@
         justify-content: space-around;
         width: 100%;
     }
+    .articlesWrapper{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit , 390px)
+    }
 
 }
