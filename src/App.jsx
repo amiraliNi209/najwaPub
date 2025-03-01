@@ -4,6 +4,7 @@ import { Home } from './pages/home/Home';
 import { Route , Routes} from "react-router-dom"
 import { ContactUs } from './pages/contactUs/contactUs';
 import {Books} from "./pages/books/Books";
+import { SimilarQuestions } from './pages/similarQuestions/SimilarQuestions';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/ChildrenAndTeenagers' element={<ChildrenAndTeens />} />
         <Route path='/ContactUs' element={<ContactUs />} />
         <Route path='/books' element={<Books />} />
+        <Route path='/similarQuestions' element={<SimilarQuestions />} />
       </Routes>
     </div>
   );

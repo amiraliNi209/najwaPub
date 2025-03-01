@@ -1,7 +1,7 @@
 
 import styled from "./navBar.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faChildReaching, faPhone, faPrint, faQuestion, faShareFromSquare, faWebAwesome } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faChildReaching , faQuestion , faWebAwesome } from '@fortawesome/free-solid-svg-icons';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
@@ -50,6 +50,7 @@ export function NavBar(p) {
                         <li className={styled.li}><Link to="/" className={styled.ulLink}>صفحه اصلی<span style={{ marginLeft: "5px" }}><FontAwesomeIcon icon={faHouse} /></span></Link></li>
                         <li className={styled.li}>جستجوهای مرتبط<span style={{ marginLeft: "5px" }}><FontAwesomeIcon icon={faMagnifyingGlass} /></span></li>
                         <li className={styled.li}><Link className={styled.ulLink} to="/ChildrenAndTeenagers">بخش کودک نوجوان<span style={{ marginLeft: "5px" }}><FontAwesomeIcon icon={faChildReaching} /></span></Link></li>
+                        <li className={styled.li}><Link className={styled.ulLink} to="/similarQuestions">سوال های متدوال<span style={{ marginLeft: "5px" }}><FontAwesomeIcon icon={faQuestion} /></span></Link></li>
                         <li className={styled.li}>نویسندهای خلاق<span style={{ marginLeft: "5px" }}><FontAwesomeIcon icon={faWebAwesome} /></span></li>
                         <li className={styled.li}>خبرنامه<span style={{ marginLeft: "5px" }}><FontAwesomeIcon icon={faHouse} /></span></li>
                     </ul>
