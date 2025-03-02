@@ -135,3 +135,26 @@
   border-radius: 20px;
   cursor: pointer;
 }
+@media(max-width:390px){
+  .topContainer{
+    text-align: center;
+    height: 95vh;
+  }
+  .topContainer .info{
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  .topContainer .bottomPar{
+    width: 100%;
+    border-radius: 0;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+  }
+  .main{
+    height: 50vh;
+  }
+  .main{
+    padding: ;
+  }
+}
