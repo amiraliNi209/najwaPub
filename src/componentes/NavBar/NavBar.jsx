@@ -10,11 +10,13 @@ import { Link } from "react-router-dom";
 
 export function NavBar(p) {
 
+
   const [isOpen, setIsOpen] = useState(false);
 
   const [searchToggle, setSearchToggle] = useState(false);
 
   const [isScrolled, setIsScrolled] = useState(false);
+
 
   useEffect(() => {
     function handleScroll() {
@@ -49,8 +51,6 @@ export function NavBar(p) {
     
     <div className={isScrolled ? styled.sticky : styled.navBar}>
 
-      {searchToggle && (<div className={styled.searchToggleContainer}></div>)}
-
       <FontAwesomeIcon icon={faBars} className={styled.barsIcon} onClick={() => {
         setIsOpen(!isOpen);
       }} onMouseEnter={handelMouseEnter} />
@@ -81,7 +81,6 @@ export function NavBar(p) {
         <div className={styled.searchBtn} onClick={searchContainerToggle} >
           <FontAwesomeIcon icon={faMagnifyingGlass} />
         </div>
-
 
       </div>
 
