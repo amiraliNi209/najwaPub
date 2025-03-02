@@ -14,7 +14,7 @@ export function ContactUs(p) {
       <section className={styled.topContainer}>
         <FontAwesomeIcon icon={faAnglesRight} className={styled.topArrow} />
         <h1 className={styled.title}>ارتباط با ما</h1>
-        <p className={styled.info}> . انتشارات نجوای قلم با مجوز رسمی از وزارت ارشاد و فرهنگ اسلامی افتخار دارد تا در عرصه مقدس کتاب اقدام به چاپ آثار هم وطنان عزیز نماید</p>
+        <p className={styled.info} style={{marginBottom:"15px"}}> . انتشارات نجوای قلم با مجوز رسمی از وزارت ارشاد و فرهنگ اسلامی افتخار دارد تا در عرصه مقدس کتاب اقدام به چاپ آثار هم وطنان عزیز نماید</p>
         <img src={qrCode} alt="" />
         <FontAwesomeIcon icon={faAnglesRight} className={styled.bottomArrow} />
         <p className={styled.bottomPar}>کارشناسان انتشارات نجوای قلم حداکثر بعد از پانزده روز پاسخ شما را خواهند داد</p>

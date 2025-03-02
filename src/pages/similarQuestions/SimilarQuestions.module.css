@@ -1,0 +1,26 @@
+.head {
+  height: 89vh;
+  width: 100%;
+  background: #cfe1e5;
+  display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.title {
+  font-family: "nastAliqe";
+  font-size: 90px;
+  font-weight: 100;
+}
+
+.head p{
+	transform: translateY(-50px);
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.chevronDown{
+	margin-right: 5px;
+}
