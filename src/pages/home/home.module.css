@@ -101,28 +101,25 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        height: 60vh;
     }
     .bannerContainer .logoContainer{
         width: 300px;
         height: 300px;
     }
     .bannerContainer .brandName{
-        margin-top: 90px;
+        margin-top: 130px;
         font-size: 48px;
     }
     .sd{
-        transform: rotate(90deg);
+        text-align: center;
         position: absolute;
-        bottom: 20%;
-        left: -150px;
+        bottom: 10%;
         width: 100%;
         height: 1%;
     }
     .sd h3{
-        transform: rotate(90deg);
-    }
-    .sd h3 .chevronDown{
-        display: none;
+        transform: translateX(-40px);
     }
     .bestAuthors{
         display: flex;
