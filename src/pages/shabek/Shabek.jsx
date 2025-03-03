@@ -5,7 +5,6 @@ export function Shabek() {
 	return (
 		<div className={styled.Shabek}>
 			<NavBar />
-			hello world
 		</div>
 	)
 }
