@@ -58,7 +58,7 @@ export function SimilarQuestions(p) {
         </div>
 
         <div className={styled.right}>
-          <h3>سوال های خود را در این قسمت از بپرسید</h3>
+          <h3>سوال های خود را در این قسمت از ما بپرسید</h3>
           <form action="">
             <input type="text" name="" id="" placeholder="نام خود را وارد کنید" required/>
             <input type="email" name="" id="" placeholder="ادرس ایمیل خود را وارد کنید" required/>
