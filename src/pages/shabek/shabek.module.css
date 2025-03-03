@@ -1,0 +1,12 @@
+.head{
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.head .info{
+    direction: rtl;
+    max-width: 500px;
+    line-height: 1.9;
+}
