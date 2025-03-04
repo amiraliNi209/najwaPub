@@ -1,12 +1,86 @@
-.head{
-    width: 100%;
-    height: 89vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.head {
+  width: 100%;
+  height: 89vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.head .info{
-    direction: rtl;
-    max-width: 500px;
-    line-height: 1.9;
+.head .info {
+  direction: rtl;
+  max-width: 500px;
+  line-height: 1.9;
+}
+.history {
+  padding: 10px;
+  width: 100%;
+  height: 100vh;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.bookSvg {
+  font-size: 128px;
+}
+.history .textContent {
+  max-width: 600px;
+  line-height: 1.9;
+}
+.isbnIran {
+  padding: 10px;
+  width: 100%;
+  height: 100vh;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+.isbnIran .textContent {
+  max-width: 600px;
+  line-height: 1.9;
+}
+.numbering {
+  padding: 10px;
+  width: 100%;
+  height: 100vh;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.numbering h2{
+  margin-top: 30px;
+}
+.numbering .grups {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  position: relative;
+}
+.numbering .grups .grup {
+  max-width: 40%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.grup:first-child::before{
+  content: "";
+  width: 2px;
+  height: 80%;
+  background: #ccc;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+}
+.numbering .grups .grup .grupNumbers{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
