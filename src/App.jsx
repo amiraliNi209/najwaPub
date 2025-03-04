@@ -6,6 +6,7 @@ import { ContactUs } from './pages/contactUs/contactUs';
 import {Books} from "./pages/books/Books";
 import { SimilarQuestions } from './pages/similarQuestions/SimilarQuestions';
 import { Shabek } from './pages/shabek/Shabek';
+import { Fipa } from './pages/fipa/Fipa';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/books' element={<Books />} />
         <Route path='/similarQuestions' element={<SimilarQuestions />} />
         <Route path='/shabek' element={<Shabek />} />
+        <Route path='/fipa' element={<Fipa />} />
       </Routes>
     </div>
   );
