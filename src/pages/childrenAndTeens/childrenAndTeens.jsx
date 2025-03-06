@@ -3,8 +3,8 @@ import { NavBar } from '../../componentes/NavBar/NavBar'
 import styled from "./childrenAndTeens.module.css"
 import headImg from "../../assets/images/gabe-pierce-2w46Lv6EYT4-unsplash.jpg"
 import rangeImg from "../../assets/images/rang.jpg"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faQuoteLeft} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 
 export function ChildrenAndTeens(p) {
 	return (
@@ -12,7 +12,7 @@ export function ChildrenAndTeens(p) {
 			<NavBar />
 
 			<section className={styled.head}>
-				<div className={styled.headImg}><img src={headImg} alt="#"/></div>
+				<div className={styled.headImg}><img src={headImg} alt="#" /></div>
 				<div className={styled.headTextContent}>
 					<FontAwesomeIcon icon={faQuoteLeft} />
 					<h2>بخش کودک و نوجوان</h2>
