@@ -3,7 +3,6 @@ import { NavBar } from "../../componentes/NavBar/NavBar"
 import { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faChildReaching, faCircleCheck, faClockRotateLeft, faGavel, faGlobe, faHome, faHouse, faMagnifyingGlass, faQuestion, faRedo, faTasks, faWebAwesome } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
 
 export function Fipa() {
 
