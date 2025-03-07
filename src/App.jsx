@@ -10,6 +10,7 @@ import { Fipa } from './pages/fipa/Fipa';
 import { PoetryAndSong } from "./pages/poetryAndSong/PoetryAndSong";
 import { Steps } from './pages/steps/Steps';
 import { CretiveCreators } from './pages/CretiveCreators/CretiveCreators';
+import { LoginAndSignUp } from './pages/loginAndSignUp/LoginAndSignUp';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/poetryAndSongPage' element={<PoetryAndSong />} />
         <Route path='/stepsPage' element={<Steps />} />
         <Route path='/CretiveCreatorsPage' element={<CretiveCreators />} />
+        <Route path='/loginPage' element={<LoginAndSignUp />} />
       </Routes>
     </div>
   );
