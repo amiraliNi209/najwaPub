@@ -21,11 +21,11 @@ function App() {
         <Route path='/ContactUs' element={<ContactUs />} />
         <Route path='/books' element={<Books />} />
         <Route path='/similarQuestions' element={<SimilarQuestions />} />
-        <Route path='/shabek' element={<Shabek />} />
-        <Route path='/fipa' element={<Fipa />} />
-        <Route path='/poetryAndSong' element={<PoetryAndSong />} />
-        <Route path='/steps' element={<Steps />} />
-        <Route path='/CretiveCreators' element={<CretiveCreators />} />
+        <Route path='/shabekPage' element={<Shabek />} />
+        <Route path='/fipaPage' element={<Fipa />} />
+        <Route path='/poetryAndSongPage' element={<PoetryAndSong />} />
+        <Route path='/stepsPage' element={<Steps />} />
+        <Route path='/CretiveCreatorsPage' element={<CretiveCreators />} />
       </Routes>
     </div>
   );
